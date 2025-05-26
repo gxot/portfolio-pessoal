@@ -1,6 +1,7 @@
 import HeaderProjetos from '@/components/HeaderProjetos';
 import LeitorCSV from '@/components/LeitorCSV';
-import WebScraperOlx from '@/components/WebScraperOlx'
+import WebScraperOlx from '@/components/WebScraperOlx';
+import CompiladoDeCodigos from '@/components/CompiladoDeCodigos';
 
 
 
@@ -12,6 +13,7 @@ export default function Projects() {
             <div className='flex'>
                 <LeitorCSV></LeitorCSV>
                 <WebScraperOlx></WebScraperOlx>
+                <CompiladoDeCodigos></CompiladoDeCodigos>
             </div>
             
         </div>

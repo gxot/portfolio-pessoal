@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 export default function CompiladoDeCodigos () {
+    let [isOpen, setIsOpen] = useState(false);
     return (
         <div className="flex flex-wrap justify-center gap-20 px-4">
             <div className="flex flex-col bg-white w-72 p-4 shadow">
